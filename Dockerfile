@@ -16,5 +16,3 @@ COPY --from=build  /go/src/tasky/assets ./assets
 #COPY wizexercise.txt .
 EXPOSE 8080
 ENTRYPOINT ["/app/tasky"]
-
-

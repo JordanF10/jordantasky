@@ -127,6 +127,7 @@ spec:
       labels:
         app: tasky
     spec:
+      serviceAccountName: tasky-serviceaccount
       containers:
         - env:
             - name: MONGODB_URI
